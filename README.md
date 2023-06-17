@@ -1,10 +1,12 @@
-# AHC Vis Archiver
+# AHC Vis Archiver <a href="#top" id="top">§</a>
 
 This is a Python script to save the AtCoder AHC visualizer and related files to the local environment. Please make sure to have the Selenium chromedriver installed for this script to work properly.
 
+<a href="#jp">Japanese Translation below. 日本語版はこちら</a>
+
 ## pre-requirement
 
-* python packages (see [pyproject.toml](pyproject.toml))
+* python3.10~ and related packages (see [pyproject.toml](pyproject.toml))
 * chrome
 * selenium chromedriver
 
@@ -59,7 +61,7 @@ This script automates the process of saving the files by using Selenium to captu
 
 ---
 
-# AHC Vis Archiver
+# AHC Vis Archiver <a href="#top" id="jp">§</a>
 
 AtCoderのAHCのビジュアライザ関連のファイルをローカルに保存して実行できるようにするpythonスクリプトです. Selenium + Chrome を利用しているので selenium や google chrome, chromedriver などを事前にインストールしてください.
 
