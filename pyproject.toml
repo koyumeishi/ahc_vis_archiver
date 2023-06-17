@@ -1,0 +1,29 @@
+[project]
+name = "ahc-vis-archiver"
+version = "0.1.0"
+description = "Python script to save the AtCoder AHC visualizer to the local environment."
+authors = [
+    { name = "koyumeishi", email = "koyumeishi+github@gmail.com" }
+]
+dependencies = [
+    "requests~=2.31.0",
+    "selenium~=4.10.0",
+    "lxml~=4.9.2",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.rye.scripts]
+url = ["python", "get_vis_url.py"]
+archive = ["python", "archive.py"]
+server = ["python", "-mhttp.server", "--directory"]
