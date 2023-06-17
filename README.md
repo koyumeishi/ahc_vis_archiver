@@ -4,6 +4,8 @@ This is a Python script to save the AtCoder AHC visualizer and related files to 
 
 <a href="#jp">Japanese Translation below. 日本語版はこちら</a>
 
+![](image.png)
+
 ## pre-requirement
 
 * python3.10~ and related packages (see [pyproject.toml](pyproject.toml))
